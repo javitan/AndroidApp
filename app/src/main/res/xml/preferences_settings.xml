@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Javitan"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/user_name"
+        android:hint="@string/hint_user_name"
+        android:key="edit_text_preference_1" />
+    <PreferenceCategory android:title="Preference category">
+        <ListPreference
+            android:defaultValue="3"
+            android:title="@string/text_help"
+            android:entries="@array/times_array"
+            android:entryValues="@array/times_array"
+            android:key="list_preference_1" />
+    </PreferenceCategory>
+    <EditTextPreference
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/text_friends"
+        android:hint="@string/friends_name"
+        android:key="edit_text_preference_2" />
+</PreferenceScreen>

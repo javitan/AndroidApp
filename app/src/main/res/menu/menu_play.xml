@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/callOption"
+        android:icon="@drawable/callicon"
+        android:title="@string/credits"
+        android:visible="true"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/fiftyOption"
+        android:icon="@drawable/fiftyicon"
+        android:title="@string/credits"
+        android:visible="true"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/publicOption"
+        android:icon="@drawable/publicicon"
+        android:title="@string/credits"
+        android:visible="true"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/endOption"
+        android:icon="@drawable/stopicon"
+        android:title="@string/credits"
+        android:visible="true"
+        app:showAsAction="always">
+    </item>
+
+</menu>
